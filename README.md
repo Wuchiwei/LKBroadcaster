@@ -1,5 +1,10 @@
 # LKBroadcaster
 
+Swift Generic Observer Pattern inspired by iOS Notification Center API.
+
+### Design Explaination
+You can review design thinking in [Design Explaination Document](https://github.com/Wuchiwei/LKBroadcaster/blob/main/Design_Explaination.md).
+
 ### Installation
 Supprot `Swift Package Manager` installation.
 
@@ -55,6 +60,3 @@ LKBroadcaster.post(
     content: Movie(name: "Nice Movie")
 )
 ```
-
-### Design Explaination
-You can review design thinking in [Design Explaination Document](https://github.com/Wuchiwei/LKBroadcaster/blob/main/Design_Explaination.md).
